@@ -1,5 +1,3 @@
-import gui.menu;
-
 import javax.swing.*;
 
 public class Main {
@@ -9,12 +7,12 @@ public class Main {
 
         System.out.println("Hello world!");
 
-        gameLoop g = new gameLoop();
+        gameLogic g = new gameLogic();
 
         //Thread GameLoop = new Thread(() -> g.Setup(0));
 
         SwingUtilities.invokeLater(
-                () -> new menu()
+                () -> new gui.mainFrame()
         );
 
 

@@ -1,12 +1,12 @@
 package gui;
 
 import javax.swing.*;
-import javax.swing.text.StyleConstants;
 import java.awt.*;
 
-public class titlePanel extends JPanel {
-    public titlePanel(mainFrame frame){
+public class selectionTitle extends JPanel {
+    public selectionTitle(mainFrame frame){
         super();
+
         this.setLayout(new GridBagLayout());
 
         JTextPane pacmanTitle = new JTextPane();

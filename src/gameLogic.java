@@ -1,5 +1,5 @@
 import blocks.Entity;
-public class gameLoop {
+public class gameLogic {
     Entity[][] table;
     public void Setup(int mapSize){
         table = new Entity[mapSize][mapSize];
