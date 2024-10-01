@@ -1,5 +1,5 @@
 package blocks;
 
 public abstract class Entity {
-    abstract void display();
+    public abstract void display();
 }
